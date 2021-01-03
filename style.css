@@ -1,28 +1,28 @@
 body {
 	text-align: center;
-	background-color: #0a053b;
+	background-color: #0a062c;
 }
 
 #level-title {
 	font-family: 'Press Start 2P', cursive;
 	font-size: 3rem;
-	margin: 5%;
+	margin: 4%;
 	color: #fef2bf;
 }
 
 .container {
 	display: block;
-	width: 50%;
+	width: 60%;
 	margin: auto;
 }
 
 .btn {
-	margin: 25px;
+	margin: 18px;
 	display: inline-block;
 	height: 200px;
-	width: 200px;
-	border: 10px solid rgba(0, 0, 0, 0.96);
-	border-radius: 20%;
+	width: 210px;
+	border: 12px solid rgba(0, 0, 0, 0.98);
+	border-radius: 22%;
 }
 
 .red {
@@ -42,11 +42,11 @@ body {
 }
 
 .pressed {
-	box-shadow: 0 0 20px white;
+	box-shadow: 0 0 24px white;
 	background-color: grey;
 }
 
 .wrong {
 	background-color: #f00;
-	opacity: 0.75;
+	opacity: 0.7;
 }
