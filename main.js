@@ -111,9 +111,10 @@ function animatedPress(currentColor){
 
 
 function startOver(){
+    gamePattern=[];
     level=0;
     started=false;
-    gamePattern=[];
+   
 }
 
 
